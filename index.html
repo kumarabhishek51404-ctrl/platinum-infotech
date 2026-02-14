@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhishek Cyber Cafe</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f2f6fc;
+}
+
+header{
+    background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#111;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00c6ff;
+}
+
+section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+h2{
+    color:#2c5364;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:260px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.price-table{
+    background:white;
+    width:80%;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+button{
+    background:#2c5364;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00c6ff;
+}
+
+footer{
+    background:#111;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Abhishek Cyber Cafe</h1>
+<p>All Online Services Available Here</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#price">Price List</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<h2>Welcome To Our Cyber Cafe</h2>
+<p>Fast Internet | Online Form | Printing | All Digital Services</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="services">
+<div class="card">
+<h3>Online Form Filling</h3>
+<p>Govt & Private Job Forms</p>
+</div>
+
+<div class="card">
+<h3>Print & Scan</h3>
+<p>Color & Black Printing</p>
+</div>
+
+<div class="card">
+<h3>Aadhar / PAN Services</h3>
+<p>New Apply & Correction</p>
+</div>
+
+<div class="card">
+<h3>Ticket Booking</h3>
+<p>Train & Bus Reservation</p>
+</div>
+</div>
+</section>
+
+<section id="price">
+<h2>Price List</h2>
+<div class="price-table">
+<p>Black Print - ₹5 per page</p>
+<p>Color Print - ₹20 per page</p>
+<p>Online Form - ₹100</p>
+<p>Scanning - ₹10 per page</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>📍 Your City Name</p>
+<p>📞 98XXXXXXXX</p>
+<button onclick="window.location.href='tel:98XXXXXXXX'">Call Now</button>
+</section>
+
+<footer>
+<p>© 2026 Abhishek Cyber Cafe | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
